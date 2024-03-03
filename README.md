@@ -16,6 +16,11 @@ Use right-click to delete thd file "test/bar.dart".
 
 Notice how the problems window now shows a single problem.
 
+```
+The name 'QueryParam' isn't a type, so it can't be used as a type argument.
+Try correcting the name to an existing type, or defining a type named 'QueryParam'.
+```
+
 Click on the problem to open the file.  Notice how it goes away as soon as you save/close the file.
 
 I believe this a problem with part commands and the way the analysis server does refreshes.
